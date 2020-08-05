@@ -1,0 +1,22 @@
+.ScreenBody {
+    padding: 10px;
+    /* border-radius: 16px; */
+    background: #f4f0ed;
+    box-shadow:  2px 0px 2px 0 #f4f0ed;
+    
+}
+.ScreenBody .Screen {
+    background-color:#858963;
+    padding:3px 5px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    font-size:18px;
+}
+.ScreenBody .Screen  p:nth-child(2){
+    color:#f4f0ed;
+    position: absolute;
+    right:10px;
+    bottom: -10px;
+}

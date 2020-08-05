@@ -1,0 +1,6 @@
+.CalculatorFunctionality {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+    grid-gap:10px;
+}
